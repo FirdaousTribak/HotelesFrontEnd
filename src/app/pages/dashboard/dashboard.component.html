@@ -1,0 +1,490 @@
+<div class="row">
+  <div class="col-lg-3 col-md-6 col-sm-6">
+    <div class="card card-stats">
+      <div class="card-body ">
+        <div class="row">
+          <div class="col-5 col-md-4">
+            <div class="icon-big text-center icon-warning">
+              <i class="nc-icon nc-pin-3 text-warning"></i>
+            </div>
+          </div>
+          <div class="col-7 col-md-8">
+            <div class="numbers">
+              <p class="card-category">Localisation</p>
+              <p class="card-title">Doha
+                <p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card-footer ">
+        <hr>
+        <div class="stats">
+          <i class="fa fa-refresh"></i> Update Now
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-3 col-md-6 col-sm-6">
+    <div class="card card-stats">
+      <div class="card-body ">
+        <div class="row">
+          <div class="col-5 col-md-4">
+            <div class="icon-big text-center icon-warning">
+              <i class="nc-icon nc-calendar-60 text-success"></i>
+            </div>
+          </div>
+          <div class="col-7 col-md-8">
+            <div class="numbers">
+              <p class="card-category">Durée</p>
+              <p class="card-title">8 Nuits
+                <p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card-footer ">
+        <hr>
+        <div class="stats">
+          <i class="fa fa-calendar-o"></i> Last day
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-3 col-md-6 col-sm-6">
+    <div class="card card-stats">
+      <div class="card-body ">
+        <div class="row">
+          <div class="col-5 col-md-4">
+            <div class="icon-big text-center icon-warning">
+              <i class="nc-icon nc-money-coins text-danger"></i>
+            </div>
+          </div>
+          <div class="col-7 col-md-8">
+            <div class="numbers">
+              <p class="card-category">Nbr Hotels</p>
+              <p class="card-title">200
+                <p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card-footer ">
+        <hr>
+        <div class="stats">
+          <i class="fa fa-clock-o"></i> In the last hour
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-3 col-md-6 col-sm-6">
+    <div class="card card-stats">
+      <div class="card-body ">
+        <div class="row">
+          <div class="col-5 col-md-4">
+            <div class="icon-big text-center icon-warning">
+              <i class="nc-icon nc-world-2 text-primary"></i>
+            </div>
+          </div>
+          <div class="col-7 col-md-8">
+            <div class="numbers">
+              <p class="card-category">l'événement</p>
+              <p class="card-title">Mondial22<p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card-footer ">
+        <hr>
+        <div class="stats">
+          <i class="fa fa-refresh"></i> Update now
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row" >
+  <div class="col-md-6">
+    <div class="card card-chart">
+     <div class="card-header">
+        <h5 class="card-title">Les prix de mois Juin</h5>
+        <p class="card-category">Line Chart with Points</p>
+     </div>
+    <div class="card-body">
+    <canvas id="speedChart2" width="400" height="100"></canvas>
+  </div>
+  <div class="card-footer">
+    <div class="chart-legend">
+      <i class="fa fa-circle text-warning"></i> Juin
+    </div>
+    <hr/>
+    <div class="card-stats">
+      <i class="fa fa-check"></i> Data information certified
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="col-md-6">
+  <div class="card card-chart">
+   <div class="card-header">
+      <h5 class="card-title">Les prix de mois Novembre</h5>
+      <p class="card-category">Line Chart with Points</p>
+   </div>
+  <div class="card-body">
+  <canvas id="speedChart1" width="400" height="100"></canvas>
+</div>
+<div class="card-footer">
+  <div class="chart-legend">
+    <i class="fa fa-circle text-info"></i> Novembre
+
+  </div>
+  <hr/>
+  <div class="card-stats">
+    <i class="fa fa-check"></i> Data information certified
+  </div>
+</div>
+</div>
+</div>
+
+</div>
+
+<div class="row">
+  <div class="col-md-4">
+    <div class="card ">
+      <div class="card-header ">
+        <h5 class="card-title">Disponibilité des Hôtels en Novembre</h5>
+      </div>
+      <div class="card-body ">
+        <canvas id="chartDispo"></canvas>
+      </div>
+      <div class="card-footer ">
+        <div class="legend">
+          <i class="fa fa-circle text-primary"></i> Disponible
+          <i class="fa fa-circle text-danger"></i> occupé
+        </div>
+        <hr>
+        <div class="stats">
+          <i class="fa fa-check"></i> Number of Hotels
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-8">
+    <div class="card card-chart">
+      <div class="card-header">
+        <h5 class="card-title">Comparaison des prix entre le mois Juin et Novembre</h5>
+        <p class="card-category">Line Chart with Points</p>
+      </div>
+      <div class="card-body">
+        <canvas id="speedChart" width="400" height="100"></canvas>
+      </div>
+      <div class="card-footer">
+        <div class="chart-legend">
+          <i class="fa fa-circle text-info"></i>  Novembre
+          <i class="fa fa-circle text-warning"></i> Juin
+        </div>
+        <hr/>
+        <div class="card-stats">
+          <i class="fa fa-check"></i> Data information certified
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+<div class="row">
+  <div class="col-md-12">
+    <div class="card">
+      <div class="card-header">
+        <h4 class="card-title">  Quelques Hôtels</h4>
+      </div>
+      <div class="card-body">
+        <div class="table-responsive">
+          <table class="table">
+            <thead class=" text-primary">
+              <th style="width: 25%;" class="text-center">
+                
+                Nom de l'hôtel
+              </th>
+              <th style="width: 10%;">
+                Image
+              </th>
+              <th style="width: 25%;" class="text-center">
+                Position
+              </th>
+              <th style="width: 25%;" class="text-center">
+                Date
+              </th>
+              <th  style="width: 25%;" class="text-center">
+                Prix
+              </th>
+            </thead>
+            <tbody class="text-center">
+              <tr>
+                <td >
+                  Corp Executive Doha Suites
+                </td>
+                <td >
+                  <img src="https://t-cf.bstatic.com/xdata/images/hotel/square600/10018197.webp?k=0c19f3cb32ea679acfde320993880269d73b5d7108aebec344714c140d075f54&o=&s=1" alt="">
+                </td>
+                <td>
+                  1,6 km du centre
+
+                </td>
+                <td >
+                  1 Juin-8Juin
+
+                </td>
+                <td >
+                  MAD 5 149
+
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Liberty Suites Doha
+
+                </td>
+                <td>
+                  <img src="https://t-cf.bstatic.com/xdata/images/hotel/square600/11202627.webp?k=9ae6e44187d44a8bae3bf6569436fbeacbf8b3d9d06e2c5175cb5132d2d487f3&o=&s=1
+                  " alt="">
+                </td>
+                <td>
+                  1,8 km du centre
+
+                </td>
+                <td >
+                  1 Sept-8Sept
+
+
+                </td>
+                <td >
+                  MAD 50 823
+
+                </td>
+              </tr>
+             
+              <tr>
+                <td>
+                  Centro Capital Doha - By Rotana
+                </td>
+                <td>
+                  <img src="https://t-cf.bstatic.com/xdata/images/hotel/square600/69869496.webp?k=7b2a3c80486b7c765fb8bca03bbe1554980f0313bf8a54094f83c5febb2dcee7&o=&s=1
+                  " alt="">
+                </td>
+                <td style="width: 10%;">
+                  2,2 km du centre
+
+                </td>
+                <td >
+                  1 Juin-8Juin
+
+                </td>
+                <td >
+                  MAD 6 022
+                </td>
+              </tr>
+             
+              <tr>
+                <td>
+                  Retaj Al Rayyan
+                </td>
+                <td>
+                  <img src="https://t-cf.bstatic.com/xdata/images/hotel/square600/13243873.webp?k=040abf28e89b45b660eabd31b4b97568b011a73c27ab999a6bf86db1c2476486&o=&s=1
+                  " alt="">
+                </td>
+                <td>
+                  4,6 km du centre
+
+                </td>
+                <td >
+                  1 Juin-8Juin
+
+                </td>
+                <td >
+                  MAD 4 452
+
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  The Townhouses The Pearl Qatar
+
+                </td>
+                <td>
+                  <img src="https://t-cf.bstatic.com/xdata/images/hotel/square600/347308768.webp?k=308642952fca486abb647e3c7c17a9650bd64f998e3448371b475b1a1db141b9&o=&s=1
+                  " alt="">
+                </td>
+                <td>
+                  9,9 km du centre
+
+                </td>
+                <td >
+                  1 Sept-8Sept
+
+
+                </td>
+                <td >
+                  MAD 90 139
+
+                </td>
+                
+              </tr>
+              <tr>
+                <td>
+                  Four Points by Sheraton Doha
+                </td>
+                <td>
+                  <img src="https://t-cf.bstatic.com/xdata/images/hotel/square600/239459551.webp?k=6c4620ef7ca71023302ff5326c3e292ea54bde7e38a8bb6b5f188f92bc112c4d&o=&s=1
+                  " alt="">
+                </td>
+                <td>
+                  1,1 km du centre
+                </td>
+                <td >
+                  1 Juin-8Juin
+
+                </td>
+                <td >
+                  MAD 8 208
+                </td>
+              </tr>
+           
+
+
+              <tr>
+                <td>
+                  The St. Regis Doha
+
+
+                </td>
+                <td>
+                  <img src="https://cf.bstatic.com/xdata/images/hotel/square600/62443069.webp?k=c0f809caa4725fc2c5e5a47dcbfa1da3c59392ea835edef2ca353fb6a1d85351&o=&s=1
+                  " alt="">
+                </td>
+                <td>
+                  7,1 km du centre
+
+
+                </td>
+                <td >
+                  1 Sept-8Sept
+
+
+                </td>
+                <td >
+                  MAD 17 633
+
+
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Holiday Inn - Doha - The Business Park, an IHG Hotel
+                </td>
+                <td>
+                  <img src="https://t-cf.bstatic.com/xdata/images/hotel/square600/287473588.webp?k=b67b012cfc4dc2301b3338df1498d9ede2339956bcb1c8328668498d11199d1e&o=&s=1
+                  " alt="">
+                </td>
+                <td>
+                  1,8 km du centre
+                </td>
+                <td >
+                  1 Juin-8Juin
+
+                </td>
+                <td >
+                  MAD 8 022
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  JW Marriott Marquis City Center Doha
+
+
+                </td>
+                <td>
+                  <img src="https://cf.bstatic.com/xdata/images/hotel/square600/60313106.webp?k=3d9936f9c2c545b52072669e9148aac5657d2294b3edda6c0c8d54cdb238f558&o=&s=1
+                  " alt="">
+                </td>
+                <td>
+                  4,3 km du centre
+
+
+                </td>
+                <td >
+                  1 Sept-8Sept
+
+
+                </td>
+                <td >
+                  MAD 12 075
+
+
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  Mondrian Doha
+
+
+                </td>
+                <td>
+                  <img src="https://cf.bstatic.com/xdata/images/hotel/square600/118645062.webp?k=72b3a9742feef4df05979178ac9e62e10dc0a45bd272767f95288741b97deaf3&o=&s=1
+                  " alt="">
+                </td>
+                <td>
+                  10 km du centre
+
+
+                </td>
+                <td >
+                  1 Sept-8Sept
+
+
+                </td>
+                <td >
+                  MAD 13 577
+
+
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  The Ritz-Carlton Sharq Village, Doha
+
+
+                </td>
+                <td>
+                  <img src="https://t-cf.bstatic.com/xdata/images/hotel/square600/192964631.webp?k=00d5b8b5e7145470a4da384040e5e23149304b8e3390bca8ac46b6f3da888f5a&o=&s=1
+                  " alt="">
+                </td>
+                <td>
+                  2,4 km du centre
+
+
+                </td>
+                <td >
+                  1 Sept-8Sept
+
+
+                </td>
+                <td c>
+                  MAD 18 147
+
+
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
